@@ -1,0 +1,14 @@
+redis
+web3
+psutil
+pandas
+python-dotenv
+requests
+tenacity
+eth-account
+ollama
+openai
+nest-asyncio
+rich
+python-dateutil
+ipython

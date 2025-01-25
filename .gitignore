@@ -1,0 +1,20 @@
+# env
+*.env
+
+# all pycache
+__pycache__/
+
+# all pytest
+.pytest_cache/
+
+dump.rdb
+tester.ipynb
+code_base.txt
+
+*TODO
+
+logs/
+data/
+analysis/
+
+*.ipynb
