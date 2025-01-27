@@ -19,7 +19,7 @@ r = redis.Redis(host='localhost', port=6379, db=2)
 def main(w3, scanner, exchange, wallet):
     strategy = HoneypotTimerFlowBaseUniswapV2(w3, scanner, exchange, wallet)
     while True:
-        # Block until there is a new event in the queue
+        # Block until there is a new event in the queue``
         _, event_json = r.brpop("NewToken")
         event_data = json.loads(event_json)
         token1 = event_data["token1"]

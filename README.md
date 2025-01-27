@@ -24,3 +24,8 @@
 - Get rid of the LLM module if you don't want to use it
 - Feel free to implement your own security checks
 - DONT LEAVE THIS ON UNMONITORED
+
+
+
+redis-server
+event_fetcher
